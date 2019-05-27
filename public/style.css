@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+}
+
+
+.header_color {
+    height:250px;
+    width:100%;
+    background-color: aquamarine;
+}

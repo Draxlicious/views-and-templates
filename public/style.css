@@ -2,9 +2,31 @@ body {
     background-color: lightblue;
 }
 
+header{
+    display:flex;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+}
+
+li {
+    margin:0 1em;
+}
 
 .header_color {
     height:250px;
     width:100%;
     background-color: aquamarine;
+}
+
+
+li.active {
+    background-color: #9999ff;
+}
+
+.footer_farve{
+    background-color: cornsilk;
+    height:100px;
+    width: 100%;
 }

@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Produkt</title>
+    <title><%- title%></title>
     <%- include('partials/style.ejs')%>
 
 </head>
 <body>
-    <header>
-    <%- include('partials/header.ejs')%>
-    <%- include('partials/nav.ejs')%>
+<h1>Produkt</h1>
+    <header class="header_color">
+        <%- include('partials/header.ejs')%>
+        <nav>    
+            <%- include('partials/nav.ejs')%>
+        </nav>
     </header>
 
 <main>
@@ -21,7 +24,7 @@
 </main>
 
     <footer>
-        <%- include('partials/script.ejs')%>
+        <%- include('partials/footer.ejs')%>
     </footer>
 
     <%- include('partials/script.ejs') %>

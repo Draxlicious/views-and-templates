@@ -1,15 +1,25 @@
 module.exports = (app) => {
    app.get('/', (req, res, next) => {
-      res.render('home', {"titel": "min fancy forside"});
+      res.render('home', {
+         "titel": "min fancy forside",
+         "page": "home",
+         "footer": "farve"
+      });
    });
 
 
    app.get('/product', (req, res, next) => {
-      res.render('product');
+      res.render('product', {
+         "title": "Produkt",
+         "page": "product"
+      });
    });
 
    app.get('/contact', (req, res, next) => {
-      res.render('contact');
+      res.render('contact',{
+         "title": "Kontakt",
+         "page": "contact"
+      });
    });
 
    // 
